@@ -1,0 +1,12 @@
+Html file basic program (with example specific to ques)
+Diff between HTML and HTML5
+Levels of CSS
+styleSheet in CSS
+Adv of Bootstrap
+Event Listener in JavaScript (on click mouse hover)
+Bootstrap programs
+-text color, containers, basic tables, rows and col
+-alert links href, vertical button groups
+button groups
+Buttons
+(with simple basic codes) 
