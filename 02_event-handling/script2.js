@@ -1,5 +1,6 @@
 
-var title = document.querySelector('#h1')
+var title = document.querySelector('#h1') 
+// selects html element with the ID "h1" using document.querySelector() method.
 var button = document.querySelector('#btn1')
 var gmail = document.querySelector('a')
 

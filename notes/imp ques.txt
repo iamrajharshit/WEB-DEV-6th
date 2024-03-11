@@ -3,8 +3,8 @@ Diff between HTML and HTML5 (X)
 Levels of CSS
 styleSheet in CSS (X)
 Adv of Bootstrap (X)
-Event Listener in JavaScript (on click mouse hover)
-Bootstrap programs 
+Event Listener in JavaScript (on click mouse hover) (X)
+Bootstrap programs (X)
 -text color, containers, basic tables, rows and col
 -alert links href, vertical button groups
 button groups
