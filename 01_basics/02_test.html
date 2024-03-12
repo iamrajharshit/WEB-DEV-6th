@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Click Event Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    // Select the button element
+    var button = document.getElementById('myButton');
+
+    // Add a click event listener to the button
+    button.addEventListener('click', function() {
+      alert('Button clicked!'); //Alert box
+      button.style.backgroundColor='green'; //Color change
+    });
+
+    document.getElementById('myButton').addEventListener('mouseover', function() {
+    this.style.backgroundColor = 'red';
+});
+
+document.addEventListener('keypress', function(event) {
+    console.log('Key pressed:', event.key);
+});
+
+window.addEventListener('resize', function() {
+    console.log('Window resized!');
+});
+
+
+  </script>
+</body>
+</html>
