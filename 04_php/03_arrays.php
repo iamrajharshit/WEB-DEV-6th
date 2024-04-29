@@ -11,7 +11,31 @@
 
 <?php
 
-        //multi dem
+//numeric arrays
+$list=array(17,21,34,56,32);
+
+    //accessing array
+    echo "$list[0]";
+    echo "$list[1]";
+    echo "$list[2]";
+    echo "$list[3]";
+    echo "$list[4]";
+
+
+    //associative array
+$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+$car["year"] = 2024;
+var_dump($car);
+
+$ages= array("abhi"=>45,"Raj"=>21,"Rahul"=>65);
+var_dump($ages);
+echo "<br>Abhi age is ".$ages['abhi']." old";
+
+echo "<br>Raj age is ".$ages['Raj']. " old";
+
+echo "<br>Rahul age is ".$ages['Rahul']." old";
+
+//multi dem
 $cars = array (
     array("Volvo",22,18),
     array("BMW",15,13),
@@ -33,19 +57,31 @@ $teams=array(
 
 echo "<br>".$teams[0][0]."includes ".$teams[0][1]." our programer ".$teams[0][2]." our presenter and ".$teams[0][3]."<br>";
 
-//associative array
-$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
-$car["year"] = 2024;
-var_dump($car);
 
-$ages= array("abhi"=>45,"Raj"=>21,"Rahul"=>65);
-var_dump($ages);
-echo "<br>Abhi age is ".$ages['abhi']." old";
 
-echo "<br>Raj age is ".$ages['Raj']. " old";
+// FUnctions dealing with Arrays
 
-echo "<br>Rahul age is ".$ages['Rahul']." old";
+    //using unset()
+$list = array(2,3,4,5);
+unset($list[2]); //remove the element at index 2
 
+    //using array_keys and array_values
+
+
+
+    //using is_array and in_array
+
+
+
+
+    // explode and implode
+
+
+
+
+
+
+    
 
 ?>
 
